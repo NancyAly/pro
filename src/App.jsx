@@ -13,7 +13,7 @@ import Register from './Pages/Register/Register'
 import Notfound from './Pages/Notfound/Notfound'
 import Brands from './Pages/Brands/Brands'
 import CounterContextProvider from './Context/CounterContext'
-import TokenContextProvider from './Context/TokenContext'
+
 import ProtectedRoutes from './components/ProtectedRoutes/ProtectedRoutes'
 import ProductDetails from './Pages/ProductDetails/ProductDetails'
 import { Offline, Online } from 'react-detect-offline'
@@ -26,6 +26,9 @@ import AllOrders from './Pages/AllOrders/AllOrders'
 import WishListContextProvider from './Context/WishListContext'
 import WishList from './Pages/WishList/WishList'
 import ForgetPassword from './Pages/ForgetPassword/ForgetPassword'
+import TokenContextProvider from './Context/TokenContext'
+
+
 
 
 export default function App() {
